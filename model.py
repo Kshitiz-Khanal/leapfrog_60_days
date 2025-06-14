@@ -29,7 +29,7 @@ def to_markdown(text):
 
 
 # Configure Gemini API key
-GOOGLE_API_KEY = "AIzaSyA10ceOZNiCW-lEOYUWD3WARt-6EXjY4BA"  # Replace with your real key
+GOOGLE_API_KEY = ""  # Replace with your real key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the Gemini text model
